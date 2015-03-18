@@ -50,19 +50,19 @@ a:active  {color:#CC0000; background-color:transparent; text-decoration:none}
 <h1>HABONIM DROR SHIRTS</h1>
 
 <p><b>
-<a href="/Users/dbloom1/Desktop/Ethan Bloom Coding/CODE/Europe.html">EUROPE</a>
+<a href="Europe">EUROPE</a>
 </b></p>
 <p><b>
-<a href="hdsmz/Latin America">LATIN AMERICA</a>
+<a href="Latin America">LATIN AMERICA</a>
 </b></p>
 <p><b>
-<a href="/Users/dbloom1/Desktop/Ethan Bloom Coding/CODE/North America.html">NORTH AMERICA</a>
+<a href="North America">NORTH AMERICA</a>
 </b></p>
 <p><b>
-<a href="/Users/dbloom1/Desktop/Ethan Bloom Coding/CODE/Oceania.html">OCEANIA</a>
+<a href="Oceania">OCEANIA</a>
 </b></p>
 <p><b>
-<a href="/Users/dbloom1/Desktop/Ethan Bloom Coding/CODE/South Africa.html">SOUTH AFRICA</a>
+<a href="South Africa">SOUTH AFRICA</a>
 </b></p>
 
 </div>
