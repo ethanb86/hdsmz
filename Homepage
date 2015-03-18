@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html>
+<title>
+HD Shirts
+</title>
+
+<body>
+
+<style>
+  body{background-color:#CC0000
+}
+
+  h1{text-align:center;
+font-family:futura;
+font-size:160%;
+letter-spacing: 1px;
+color:#CC0000;
+}
+
+  p{
+text-align:center;
+font-family:futura;
+font-size:120%;
+letter-spacing: 1px;
+}
+
+
+.home{
+background-color:white;
+margin:auto;
+margin-top:100px;
+padding: 20px;
+width:400px;
+color:#CC0000
+}
+
+
+a:link    {color:#CC0000; background-color:transparent; text-decoration:none}
+a:visited {color:#CC0000; background-color:transparent; text-decoration:none}
+a:hover   {color:#FF6666; background-color:transparent; text-decoration:none; transition: .3s color;}
+a:active  {color:#CC0000; background-color:transparent; text-decoration:none}
+
+
+</style>
+
+<div class="home">
+
+<h1>HABONIM DROR SHIRTS</h1>
+
+<p><b>
+<a href="/Users/dbloom1/Desktop/Ethan Bloom Coding/CODE/Europe.html">EUROPE</a>
+</b></p>
+<p><b>
+<a href="/Users/dbloom1/Desktop/Ethan Bloom Coding/CODE/Latin America.html">LATIN AMERICA</a>
+</b></p>
+<p><b>
+<a href="/Users/dbloom1/Desktop/Ethan Bloom Coding/CODE/North America.html">NORTH AMERICA</a>
+</b></p>
+<p><b>
+<a href="/Users/dbloom1/Desktop/Ethan Bloom Coding/CODE/Oceania.html">OCEANIA</a>
+</b></p>
+<p><b>
+<a href="/Users/dbloom1/Desktop/Ethan Bloom Coding/CODE/South Africa.html">SOUTH AFRICA</a>
+</b></p>
+
+</div>
+
+
+
+<div style="text-align: center; margin-top: 30px"><img src="/Users/dbloom1/Desktop/Photoshops/Habonim Semel white.png" width="75px" height="75px"/></div>
+
+</body>
+</html>
