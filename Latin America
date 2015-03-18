@@ -179,14 +179,16 @@ color:#FF6666; text-decoration: none
 
     <div class="nav">
       <ul>
-                <li class="home"><a  href="Europe">EUROPE</a></li>
-        <li class="tutorials"><a class="active" href="Latin America">LATIN AMERICA</a>
+        <li class="Europe"><a  href="Europe">EUROPE</a>
         </li>
-        <li class="about"><a
-        href="North America">NORTH AMERICA</a></li>
-        <li class="news"><a href="Oceania">OCEANIA</a>
+        <li class="Latin America"><a class="active" href="Latin America">LATIN AMERICA</a>
         </li>
-        <li class="contact"><a href="South Africa">SOUTH AFRICA</a></li>
+        <li class="North America"><a href="North America">NORTH AMERICA</a>
+        </li>
+        <li class="Oceania"><a href="Oceania">OCEANIA</a>
+        </li>
+        <li class="South Africa"><a href="South Africa">SOUTH AFRICA</a>
+        </li>
       </ul>
     </div>
     
