@@ -50,7 +50,103 @@ text-decoration: none
 .links:hover {
 color:#FF6666; text-decoration: none}
 
+.navstick {position: fixed; top: 0px; left: 0px; z-index: 999; width:100%;}
+.nav ul {
+  list-style: none;
+  background-color: #CC0000;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: futura;
+  font-size: 1.2em;
+  font-weight:bold;
+  line-height: 40px;
+  text-align: left;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s color;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav a:hover {
+  color: #FF6666;
+  padding-left: 10px;
+}
+.nav a.active {
+  background-color: white;
+  color: #cc0000;
+  cursor: default;
+}
+.nav a.active:hover {transition: .3s color;
+color: #ff6666}
+/* Sub Menus */
+.nav li li {
+  font-size: .8em;
+}
+/*******************************************
+   Style menu for larger screens
+   Using 650px (130px each * 5 items), but ems
+   or other values could be used depending on other factors
+********************************************/
+@media screen and (min-width: 1000px) {
+  .nav li {
+    width: auto;
+    border-bottom: none;
+    height: auto;
+    line-height: auto;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .nav a {
+    border-bottom: none;
+  }
+  .nav > ul > li {
+    text-align: center;
+  }
+  .nav > ul > li > a {
+    padding-left: 10px;
+  }
+  /* Sub Menus */
+  .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+  .nav li:hover ul {
+    display: block;
+  }
+  .nav li ul li {
+    display: block;
+  }
+}
+
 </style>
+
+ <div class="nav">
+      <ul>
+        <li class="Europe"><a  href="Europe.html">EUROPE</a>
+        </li>
+        <li class="Latin America"><a href="Latin-America.html">LATIN AMERICA</a>
+        </li>
+        <li class="North America"><a class="active" href="North-America.html">NORTH AMERICA</a>
+        </li>
+        <li class="Oceania"><a href="Oceania.html">OCEANIA</a>
+        </li>
+        <li class="South Africa"><a href="South-Africa.html">SOUTH AFRICA</a>
+        </li>
+      </ul>
+    </div>
+    
+    <br>
+
+<br>
+
 
 <div class="box">
 
