@@ -16,8 +16,6 @@ img:hover {
     filter: alpha(opacity=37); /* For IE8 and earlier */
 }
 
-@font-face {font-family: futura; src: url('futura-normal.ttf'); } 
-@font-face { font-family: futura; font-weight: bold; src: url('FUTURA_HEAVY.ttf');}
 
 .navstick {position: fixed; top: 0px; left: 0px; z-index: 999; width:100%;}
 
